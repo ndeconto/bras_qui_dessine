@@ -10,7 +10,7 @@ void terminer()
 
 void pause()
 {
-	while (!a_fini) waitfor(0.05);
+	while (!a_fini) waitFor(0.05);
 	a_fini = 0;
 }
 
