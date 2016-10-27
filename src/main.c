@@ -2,7 +2,7 @@
 #include <time.h>
 #include "walkingdriver/driver.h"
 
-bool a_fini = false;
+char a_fini = false;
 
 void terminer()
 {
