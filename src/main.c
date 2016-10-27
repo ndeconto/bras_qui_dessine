@@ -2,17 +2,17 @@
 #include <time.h>
 #include "walkingdriver/driver.h"
 
-char a_fini = false;
+char a_fini = 0;
 
 void terminer()
 {
-	a_fini = true;
+	a_fini = 1;
 }
 
 void pause()
 {
 	while (!a_fini) sleep(0.05);
-	a_fini = false;
+	a_fini = 0;
 }
 
 
