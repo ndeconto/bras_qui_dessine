@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <time.h>
-#include "walkingdriver/driver.h"
+#include <walkingdriver/driver.h>
 
 char a_fini = 0;
 
@@ -11,7 +10,7 @@ void terminer()
 
 void pause()
 {
-	while (!a_fini) sleep(0.05);
+	while (!a_fini) waitfor(0.05);
 	a_fini = 0;
 }
 

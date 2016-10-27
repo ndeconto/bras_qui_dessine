@@ -1,3 +1,6 @@
+CFLAGS = -o2 -Wall
+LDFLAGS = -lwalkingdriver
 
-all:
-	gcc -Wall src/main.c -o main
+all: main
+
+main: main.c
