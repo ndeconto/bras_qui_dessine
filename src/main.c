@@ -39,8 +39,8 @@ int main (int argc, char* args[])
 	pause();
 	AX12move(id_motor_avant, 90, terminer);
 	pause();
-	AX12move(id_motor_avant, 0, terminer);
-	pause();
+	//AX12move(id_motor_avant, 0, terminer);
+	//pause();
 	
 	
 	printf("Hello world");
