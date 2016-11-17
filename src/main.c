@@ -37,7 +37,7 @@ int main (int argc, char* args[])
 	
 	AX12move(id_motor_racine, 0, terminer);
 	pause();
-	AX12move(id_motor_avant, 0, terminer);
+	AX12move(id_motor_avant, 30, terminer);
 	pause();
 	
 	
